@@ -1,0 +1,245 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Abstract Creative - A branding and digital marketing studio.">
+  <link href="{% static 'images/favicon/favicon.png' %}" rel="icon">
+  <title>New Oppotunity GC | Votre Conseiller en affaires</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="{% static 'css/libraries.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header header-transparent">
+      <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'indexView' %}">
+            <img src="{% static 'images/logo/logo_light.png' %}" class="logo-light" alt="logo">
+            <img src="{% static 'images/logo/header-logo.png' %}" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav__item with-dropdown">
+                <a href="{% url 'indexView' %}" class="nav__item-link active"><span>Accueil</span></a>
+              </li>
+              <li class="nav__item">
+                <a href="{% url 'aboutView' %}" class="nav__item-link"><span>A Propos</span></a>
+              </li>
+                <li class="nav__item with-dropdown">
+                  <a class="dropdown-toggle nav__item-link " data-toggle="dropdown"><span>Services</span></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav__item"><a href="{% url 'service_creation' %}" class="nav__item-link">Création d’entreprise </a></li>
+                    <li class="nav__item"><a href="{% url 'service_gestion' %}" class="nav__item-link">Gestion d’entreprise </a></li>
+                    <li class="nav__item"><a href="{% url 'simulation_projets' %}" class="nav__item-link">Simulation des projets</a></li>
+                    <li class="nav__item"><a href="{% url 'appel_offres' %}" class="nav__item-link">Avis d’appel d’offres et Consultations </a></li>
+                  </ul>
+                </li>
+              <li class="nav__item">
+                <a href="{% url 'contactView' %}" class="nav__item-link"><span>Contact</span></a>
+              </li>
+              
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-modules">
+            <ul class="list-unstyled d-flex align-items-center modules__btns-list">
+              <!-- <li><a href="#" class="module__btn module__btn-search"><i class="fa fa-search"></i></a></li> -->
+              <li class="d-none d-lg-block"><a href="/"
+                  class="btn btn__primary btn__bordered module__btn-request module__btn module__btn-search">
+                  <span>Rendez-vous</span><i class="icon-arrow-right"></i>
+                </a>
+              </li>
+
+
+              <!-- <li class="nav__item with-dropdown">
+                <a href="index.html" class="dropdown-toggle nav__item-link" data-toggle="dropdown"><img src="{% static 'images/icons/fr.png' %}" alt="" srcset=""></a>
+                <ul class="dropdown-menu">
+                  
+                  <li class="nav__item"><a href="index.html" ><img src="{% static 'images/icons/italy.png' %}" alt="" srcset=""></a></li>
+                  <li class="nav__item"><a href="home-classic.html" ><img src="{% static 'images/icons/ar.png' %}" alt="" srcset=""></a></li>
+                  <li class="nav__item"><a href="home-classic.html" ><img src="{% static 'images/icons/fr.png' %}" alt="" srcset=""></a></li>
+                  <li class="nav__item"><a href="home-classic.html" ><img src="{% static 'images/icons/en.png' %}" alt="" srcset=""></a></li>
+
+                </ul> 
+              </li> -->
+
+            </ul><!-- /.modules-wrapper -->
+          </div><!-- /.navbar-modules -->
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    {% block content %}
+      
+    {% endblock content %}
+
+    
+      <!-- ========================
+      Footer
+    ========================== -->
+    <footer id="footer" class="footer">
+        <div class="footer-top">
+          <div class="container" style="max-width: 1400px;">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 footer__widget footer__widget-about">
+                <h6 class="footer__widget-title" style="height: 45px;"> Contact Rapide</h6>
+                <div class="footer__widget-content">
+                  <!-- <p class="color-gray">Feel free to contact us with any questions.</p> -->
+                  
+                  <p class="footer__contact-phone">
+                    <i class="icon-phone"></i>
+                    <a class="alt-font-roboto" href="tel:+971529719167">+971 529-719-167</a>
+                  </p>
+                  <p class="footer__contact-phone">
+                    <i class="icon-phone"></i>
+                    <a class="alt-font-roboto" href="tel:+213770304636">+213 770-304-636</a>
+                  </p>
+                  <p class="footer__contact-phone">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:cesarotti.giuseppe@newopportunitygc.com">cesarotti.giuseppe@newopportunitygc.com</a>
+                  </p>
+                  <div class="footer__contact_adresse">
+                    <div>
+                      <i  class="fa fa-map-marker"></i>
+                      <p class="alt-font-roboto">AL Saaha Offices B, 404, Souk Al Bahar <br> Burj Khalifa Distric, Dubai, UAE </p>
+                    </div>
+                    <div>
+                      <i  class="fa fa-map-marker"></i>
+                      <p class="alt-font-roboto">
+                        Bd 11 Décembre Lot 11, lot 54, Section 54 N01. El Biar-Alger <br>
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="social__icons">
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav">
+                <h6 class="footer__widget-title" style="height: 45px;">New Opportunity GC</h6>
+                <div class="footer__widget-content">
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="{% url 'indexView' %}">Accueil</a></li>
+                      <li><a href="{% url 'aboutView' %}">A propos</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="contacs.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 footer__widget footer__widget-nav">
+                <h6 class="footer__widget-title" style="height: 45px;">Services</h6>
+                <div class="footer__widget-content">
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li><a class="text-uppercase" href="{% url 'service_creation' %}">Création d’entreprise</a></li>
+                      <li><a class="text-uppercase" href="{% url 'service_gestion' %}">gestion d’entreprise </a></li>
+                      <li><a class="text-uppercase" href="{% url 'simulation_projets' %}">Simulation des projets </a></li>
+                      <li><a class="text-uppercase" href="{% url 'appel_offres' %}">Avis d’appel d’offres et Consultations</a></li>
+                    </ul>
+                  </nav>
+                </div><!-- /.footer-widget-content -->
+              </div><!-- /.col-xl-2 -->
+              <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 footer__widget footer__widget-nav">
+                <h6 class="footer__widget-title" style="height: 45px;">Assistance clients</h6>
+                <div class="footer__widget-content">
+                  <p>
+                    12 mois est le temps nécessaire pour habituer l’entreprise et le dirigeant à leurs nouvelles vies.
+                    New Opportunity GC continue à leurs côtés pendant 1 an et sans supplément. <br>
+                    Le but étant évidemment, de tout mettre en œuvre pour faire de nos clients, des clients satisfaits d’avoir pris cette heureuse décision de collaborer avec nous.
+                  </p>
+                </div><!-- /.footer-widget-content -->
+              </div><!-- /.col-xl-2 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.footer-top -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <img src="{% static 'images/logo/logo-footer.png' %}" alt="logo">
+              </div><!-- /.col-lg-3 -->
+              <div class="col-sm-12 col-md-9 col-lg-9 text-right">
+                <div class="footer__copyright">
+                  <!-- <nav>
+                    <ul class="footer__copyright-links list-unstyled d-flex flex-wrap justify-content-end">
+                      <li><a href="#">Terms & Conditions </a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Sitemap</a></li>
+                      <li><a href="https://clients.abstract-creative.com/">Customer login</a></li>
+                    </ul>
+                  </nav> -->
+                  <p class="mb-0"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tout droits resérvé e-vapecity | Réalisé par   <a style="color: #ffffff;" href="https://octopus-consulting.com" target="_blank">Octopus Consulting</a>
+                  </p>
+                </div><!-- /.Footer-copyright -->
+              </div><!-- /.col-lg-9 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.Footer-bottom -->
+      </footer><!-- /.Footer -->
+      <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+
+      <div class="module__search-container">
+        <i class="fa fa-times close-search"></i>
+        <div class="contact__panel contact__panel-layout2">
+
+        <form class="contact__form-panel">
+          <div class="row">
+            <div class="col-sm-12 contact__form-panel-header">
+              <h4>Prenez Rendez-vous</h4>
+              <!-- <p>Complete control over products allows us to ensure our customers receive the best quality
+                prices and service.</p> -->
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Nom"></div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Numéro de Téléphone"></div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Sujet"></div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-6 col-md-6 col-lg-6 ">
+              <div class="form-group "><input type="date" class="form-control pr-4" placeholder="Date"></div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="form-group"><input type="time" class="form-control pr-4" placeholder="Heure"></div>
+            </div><!-- /.col-lg-6 -->
+          
+           
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="informations complémentaires"></textarea>
+              </div>
+            </div><!-- /.col-lg-12 -->
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <button type="submit" class="btn btn__secondary btn__block">
+                <span>Envoyer</span><i class="icon-arrow-right"></i>
+              </button>
+            </div><!-- /.col-lg-12 -->
+          </div><!-- /.row -->
+        </form>
+      </div><!-- /.module-search-container -->
+
+  </div><!-- /.wrapper -->
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/plugins.j' %}s"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>

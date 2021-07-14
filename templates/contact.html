@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section id="pageTitle" class="page-title page-title-layout7 bg-overlay ">
+      <div class="bg-img"><img src="{% static 'images/page-titles/call-center.jpg' %}" alt="background"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            <h1 class="pagetitle__heading">Contactez-Nous</h1>
+            <p class="pagetitle__desc mb-20">Toute notre équipe est a votre service</p>
+          </div><!-- /.col-xl-6 -->
+          
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+    <!-- ==========================
+        contact layout 1
+    =========================== -->
+    <section id="contactLayout1" class="contact contact-layout1 pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="contact__panel">
+              <div class="contact__panel-banner">
+                <img src="{% static 'images/page-titles/bg-space.jpg' %}" style="height: 100%  " alt="banner img">
+                <div class="cta__banner">
+                  <p style="font-size: 2rem;line-height: 32px;" class=" cta__desc"><strong>N’hésitez pas à nous contacter pour toute information complémentaire.</strong></p>
+                  <!-- <div class="contact__number d-flex align-items-center"> -->
+                    <!-- <i class="icon-phone"></i>
+                    <a href="tel:5565454117">cesarotti.giuseppe@newopportunitygc.com</a> -->
+                  <!-- </div> -->
+                </div>
+              </div>
+              <form class="contact__form-panel">
+                <div class="row">
+                  <div class="col-sm-12 contact__form-panel-header">
+                    <h4>Entrer en contact</h4>
+                    <!-- <p>N’hésitez pas à nous contacter pour toute information complémentaire. </p> -->
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group"><input type="text" class="form-control" placeholder="Nom"></div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group"><input type="text" class="form-control" placeholder="Téléphone"></div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group"><input type="text" class="form-control" placeholder="Sujet"></div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" placeholder="Détails suplaimentaires"></textarea>
+                    </div>
+                  </div><!-- /.col-lg-12 -->
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <button type="submit" class="btn btn__secondary btn__block">
+                      <span>Envoyer</span><i class="icon-arrow-right"></i>
+                    </button>
+                  </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+              </form>
+            </div><!-- /.contact__panel -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.contact layout 1 -->
+
+
+    <!-- ==========================
+       Contact Info
+    ============================ -->
+    <section id="contactInfo" class="contact contact-info pt-0">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <!-- Contact panel #1 -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="contact-info-box">
+              <h4 class="contact__info-box-title">Dubai </h4>
+              <ul class="contact__info-list list-unstyled">
+                <li>Email: <a href="mailto:cesarotti.giuseppe@newopportunitygc.com">cesarotti.giuseppe@newopportunitygc.com</a></li>
+                <li>Address: AL Saaha Offices B, 404, Souk Al Bahar
+                  Burj Khalifa Distric, Dubai, UAE</li>
+                <li>Phone: +971 529-719-167</li>
+                <li>Horaires: Lun-Ven: 8h – 17h</li>
+              </ul><!-- /.contact__info-list -->
+            </div><!-- /.contact-info-box -->
+          </div><!-- /.col-lg-4 -->
+          <!-- Contact panel #2 -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="contact-info-box">
+              <h4 class="contact__info-box-title">Alger</h4>
+              <ul class="contact__info-list list-unstyled">
+                <li>Email: <a href="mailto:cesarotti.giuseppe@newopportunitygc.com">cesarotti.giuseppe@newopportunitygc.com</a></li>
+                <li>Address: Bd 11 Décembre Lot 11, lot 54, Section 54 N01. El Biar-Alger</li>
+                <li>Phone: +213 770-304-636</li>
+                <li>Horaires: Dim-Jeu: 8h – 17h</li>
+              </ul><!-- /.contact__info-list -->
+            </div><!-- /.contact-info-box -->
+          </div><!-- /.col-lg-4 -->
+          <!-- Contact panel #3 -->
+          
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Contact Info -->
+    <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+  
+
+{% endblock content %}
