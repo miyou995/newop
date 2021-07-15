@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from django.utils.translation import gettext as _ 
+from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -67,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'opapp.context_processor.meeting_form'
             ],
         },
     },
@@ -149,3 +151,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'local/'),
 )
+if DEBUG:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_PORT = 587
+    SERVER_EMAIL = 'octopus.emailing@gmail.com'
+    EMAIL_HOST_USER = 'octopus.emailing@gmail.com'
+    EMAIL_HOST_PASSWORD = 'miyou0209'
+
+    EMAIL_USE_TLS = True
+    EMAIL_USE_SSL = False
+
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}

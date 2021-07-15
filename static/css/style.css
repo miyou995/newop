@@ -48,6 +48,9 @@
 /*--------------------------
       Global Styles
 ---------------------------*/
+@font-face { font-family: Bower; src: url("../fonts/Bower-Regular.ttf") format("truetype"); } 
+@font-face { font-family: BowerBold; src: url("../fonts/Bower-Bold.woff2") format("woff2"); } 
+@font-face { font-family: McKinseySans-Regular; src: url("../fonts/McKinseySans-Regular.woff2") format("woff2"); } 
 html,
 body {
   overflow-x: hidden;
@@ -55,7 +58,7 @@ body {
 
 body {
   background-color: #ffffff;
-  font-family:  Helvetica, sans-serif;
+  font-family:  'McKinseySans-Regular','Times New Roman', serif;
   font-size: 14px;
   font-weight: 400;
   color: #9b9b9b;
@@ -190,7 +193,8 @@ select {
 }
 
 .font-secondary {
-  font-family:  Helvetica, sans-serif;
+  font-family:  'BowerBold','Times New Roman', sans-serif;
+
 }
 
 .lh-1 {
@@ -1155,14 +1159,32 @@ select {
 /*-------------------------
    Typography
 --------------------------*/
-h1,
-h2,
+h1 {
+  color: #1b1a1a;
+  font-family:  'BowerBold','Times New Roman', sans-serif;
+
+  /* text-transform: capitalize; */
+  font-weight: 500;
+  font-size: 3.25rem;
+  line-height: 5.45rem;
+  margin-bottom: 23px;
+}
+
+h2 {
+  color: #1b1a1a;
+  font-family: 'BowerBold',Georgia,'Times New Roman',serif;
+  font-weight: 500;
+  font-size: 3.25rem;
+  line-height: 3.75rem;
+  margin-bottom: 23px;
+}
 h3,
 h4,
 h5,
 h6 {
   color: #1b1a1a;
-  font-family: 'Roboto';
+  font-family:  'BowerBold','Times New Roman', sans-serif;
+
   /* text-transform: capitalize; */
   font-weight: 500;
   line-height: 1.1;
@@ -1170,6 +1192,7 @@ h6 {
 }
 
 p {
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -1426,7 +1449,7 @@ h6 {
 }
 
 .pagetitle__subheading {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: #f9f9f9;
@@ -2990,7 +3013,7 @@ textarea.form-control {
 
 .module__btn-phone a {
   font-size: 24px;
-  font-family:  Helvetica, sans-serif;
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
 }
 
 /* module-search  */
@@ -3119,7 +3142,7 @@ textarea.form-control {
 }
 
 .module__search-container .search__input {
-  font-family: 'Roboto', sans-serif;
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #161616;
   font-size: 45px;
   font-weight: 400;
@@ -3825,7 +3848,7 @@ textarea.form-control {
 }
 
 .accordion-item .accordion__item-title {
-  font-family:  Helvetica, sans-serif;
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #222222;
   font-weight: 700;
   font-size: 22px;
@@ -3883,7 +3906,7 @@ textarea.form-control {
 }
 
 .accordion-item-no-lines .accordion__item-title {
-  font-family:  Helvetica, sans-serif;
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #222222;
   font-weight: 700;
   font-size: 22px;
@@ -3899,7 +3922,7 @@ textarea.form-control {
   right: 0;
   top: 0;
   content: "";
-  font-family: fontawesome;
+  font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   background-color: transparent;
   color: #1b1a1a;
   font-size: 10px;
@@ -4018,7 +4041,7 @@ textarea.form-control {
 }
 
 .footer__contact-phone a {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #40acb8;
@@ -4035,7 +4058,7 @@ textarea.form-control {
 }
 
 .footer__contact_adresse p {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #40acb8;
@@ -4483,7 +4506,7 @@ textarea.form-control {
 
 .slider .slide__subtitle {
   display: block;
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 14px;
   line-height: 1;
   font-weight: 800;
@@ -4844,7 +4867,7 @@ textarea.form-control {
 }
 
 .feature-item .feature__subtitle {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 14px;
   display: inline-block;
   margin-bottom: 6px;
@@ -6074,7 +6097,7 @@ textarea.form-control {
 }
 
 .blog-nav .blog__nav-content span {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 13px;
   color: #616161;
   display: block;
@@ -6180,7 +6203,7 @@ textarea.form-control {
 }
 
 .comments-list .comment__item .comment__content .comment__date {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #616161;
   font-size: 12px;
   line-height: 1;
@@ -6346,7 +6369,7 @@ textarea.form-control {
 }
 
 .contact__panel .contact__panel-banner .contact__number a {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #ffffff;
   font-size: 50px;
   font-weight: 400;
@@ -6500,7 +6523,7 @@ textarea.form-control {
 }
 
 .pricing-item .pricing__price {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 50px;
   color: #1b1a1a;
   font-weight: 400;
@@ -6639,7 +6662,7 @@ textarea.form-control {
 }
 
 .counter-item .counter__subtitle {
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1;
@@ -6776,7 +6799,7 @@ textarea.form-control {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-  font-family:  Helvetica, sans-serif;
+    font-family:  'McKinseySans-Regular','Times New Roman', sans-serif;
   color: #ffffff;
 }
 

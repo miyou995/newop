@@ -42,7 +42,7 @@
                     <li class="nav__item"><a href="{% url 'service_creation' %}" class="nav__item-link">Création d’entreprise </a></li>
                     <li class="nav__item"><a href="{% url 'service_gestion' %}" class="nav__item-link">Gestion d’entreprise </a></li>
                     <li class="nav__item"><a href="{% url 'simulation_projets' %}" class="nav__item-link">Simulation des projets</a></li>
-                    <li class="nav__item"><a href="{% url 'appel_offres' %}" class="nav__item-link">Avis d’appel d’offres et Consultations </a></li>
+                    <li class="nav__item"><a href="{% url 'appel_offres' %}" class="nav__item-link">Avis d’appels d’offres et Consultations </a></li>
                   </ul>
                 </li>
               <li class="nav__item">
@@ -146,7 +146,7 @@
                       <li><a class="text-uppercase" href="{% url 'service_creation' %}">Création d’entreprise</a></li>
                       <li><a class="text-uppercase" href="{% url 'service_gestion' %}">gestion d’entreprise </a></li>
                       <li><a class="text-uppercase" href="{% url 'simulation_projets' %}">Simulation des projets </a></li>
-                      <li><a class="text-uppercase" href="{% url 'appel_offres' %}">Avis d’appel d’offres et Consultations</a></li>
+                      <li><a class="text-uppercase" href="{% url 'appel_offres' %}">Avis d’appels d’offres et Consultations</a></li>
                     </ul>
                   </nav>
                 </div><!-- /.footer-widget-content -->
@@ -194,7 +194,8 @@
         <i class="fa fa-times close-search"></i>
         <div class="contact__panel contact__panel-layout2">
 
-        <form class="contact__form-panel">
+        <form class="contact__form-panel" action="{% url 'create_meeting' %}" method="POST">
+          {% csrf_token %}
           <div class="row">
             <div class="col-sm-12 contact__form-panel-header">
               <h4>Prenez Rendez-vous</h4>
@@ -202,28 +203,28 @@
                 prices and service.</p> -->
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="text" class="form-control" placeholder="Nom"></div>
+              <div class="form-group"><input type="text" name="name" class="form-control" placeholder="Nom"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
+              <div class="form-group"><input type="email" name="email" class="form-control" placeholder="Email"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="text" class="form-control" placeholder="Numéro de Téléphone"></div>
+              <div class="form-group"><input type="text" name="phone" class="form-control" placeholder="Numéro de Téléphone"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="text" class="form-control" placeholder="Sujet"></div>
+              <div class="form-group"><input type="text" name="subject" class="form-control" placeholder="Sujet"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6 ">
-              <div class="form-group "><input type="date" class="form-control pr-4" placeholder="Date"></div>
+              <div class="form-group "><input type="date"name="day"  class="form-control pr-4" placeholder="Date"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="time" class="form-control pr-4" placeholder="Heure"></div>
+              <div class="form-group"><input type="time" name="hour" class="form-control pr-4" placeholder="Heure"></div>
             </div><!-- /.col-lg-6 -->
           
            
             <div class="col-sm-12 col-md-12 col-lg-12">
               <div class="form-group">
-                <textarea class="form-control" placeholder="informations complémentaires"></textarea>
+                <textarea class="form-control" name="message" placeholder="informations complémentaires"></textarea>
               </div>
             </div><!-- /.col-lg-12 -->
             <div class="col-sm-12 col-md-12 col-lg-12">
