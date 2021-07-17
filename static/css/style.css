@@ -3355,10 +3355,10 @@ textarea.form-control {
     padding: 0;
   }
 
-  .fixed-navbar {
+  /* .fixed-navbar {
     position: static;
     animation: none;
-  }
+  } */
 
   .header-transparent+.page-title {
     margin-top: 0;
