@@ -3304,10 +3304,10 @@ textarea.form-control {
     display: none;
   }
 
-  .navbar .nav__item.opened>i[data-toggle=dropdown]:before,
+  /* .navbar .nav__item.opened>i[data-toggle=dropdown]:before,
   .navbar .nav__item.show>i[data-toggle=dropdown]:before {
     content: "";
-  }
+  } */
 
   .navbar .dropdown-menu {
     background-color: white;
