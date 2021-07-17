@@ -6790,7 +6790,7 @@ textarea.form-control {
 }
 
 .service-item .service__title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -6868,8 +6868,20 @@ textarea.form-control {
 
 .services-layout2 .service__content {
   padding: 50px 20px 20px;
-  height: 380px;
+  height: 300px;
 }
+@media only screen and (max-width: 768px) {
+
+  .services-layout2 .service__content {
+    padding: 50px 20px 20px;
+    height: 250px;
+  }
+  .services-layout2 .service__content.petites {
+    padding: 50px 20px 20px;
+    height: 200px;
+  }
+}
+
 
 .services-layout2 .service-item:hover .service__content {
   background-color: #40acb8;

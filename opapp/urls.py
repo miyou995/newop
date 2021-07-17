@@ -12,4 +12,6 @@ urlpatterns = [
     path('appel-offres-consultations/', ServiceAppelsOffresView.as_view(), name='appel_offres'),
     path('create_meeting/', create_meeting, name='create_meeting'),
     path('message/', TemplateView.as_view(template_name='success.html'), name='message'),
+    path("robots.txt",TemplateView.as_view(template_name="robots.txt", content_type="text/plain")), 
+
 ]
