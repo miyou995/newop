@@ -43,7 +43,9 @@
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
             <div class="heading heading-2 mb-50">
               <span class="heading__subtitle">Ce que nous faisons</span>
-              <h2 class="heading__title_white">New Opportunity GC est un cabinet d’affaires internationales basé à Dubai avec filiale au grand Maghreb.</h2>
+              <a href="{% url 'aboutView' %}">
+                <h2 class="heading__title_white">New Opportunity GC est un cabinet d’affaires internationales basé à Dubai avec filiale au grand Maghreb.</h2>
+              </a>
             </div><!-- /heading -->
             
           </div><!-- /.col-xl-6 -->
@@ -51,13 +53,17 @@
             <div class="row mt-50 about__imgs-container">
               <div class="col-6">
                 <div class="service__content">
-                  <h4 class="service__title_white">La Création d’entreprise </h4>
+                  <a href="{% url 'service_creation' %}">
+                      <h4 class="service__title_white">La Création d’entreprise </h4>
+                  </a>
                   <a href="{% url 'service_creation' %}"><p class="service__desc_grey">Votre projet demande de la préparation, des décisions importantes doivent être prises. Pour mettre en place un projet de création d’entreprise...</p></a>
                 </div><!-- /.service-content -->
               </div><!-- /.col-6 -->
               <div class="col-6">
                 <div class="service__content">
+                <a href="{% url 'service_gestion' %}">
                   <h4 class="service__title_white">La gestion de l’entreprise </h4>
+                </a>
                   <a href="{% url 'service_gestion' %}"><p class="service__desc_grey">La gestion d’entreprise correspond à l’implémentation des ressources pour assurer la mise en marche du projet...</p></a>
                 </div><!-- /.service-content -->
               </div><!-- /.col-6 -->
@@ -65,13 +71,17 @@
             <div class="row mt-50 about__imgs-container">
               <div class="col-6">
                 <div class="service__content">
-                  <h4 class="service__title_white">La Simulation des projets </h4>
+                  <a href="{% url 'simulation_projets' %}">
+                    <h4 class="service__title_white">La Simulation des projets </h4>
+                  </a>
                   <a href="{% url 'simulation_projets' %}"><p class="service__desc_grey">Notre simulation des projets englobe toutes les démarches clés de la gestion de ces derniers, et met en avant la communication de l’information qui est un...</p></a>
                 </div><!-- /.service-content -->
               </div><!-- /.col-6 -->
               <div class="col-6">
                 <div class="service__content">
-                  <h4 class="service__title_white">Avis d’appel d’offres et Consultations </h4>
+                  <a href="{% url 'appel_offres' %}">
+                    <h4 class="service__title_white">Avis d’appel d’offres et Consultations </h4>
+                  </a>
                   <a href="{% url 'appel_offres' %}"><p class="service__desc_grey">Les appels d’offres et les consultations dans divers secteurs d’activité, représentent une mine d’opportunité d’affaire...</p></a>
                 </div><!-- /.service-content -->
               </div><!-- /.col-6 -->
