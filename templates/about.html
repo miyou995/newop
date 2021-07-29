@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
 
 {% block title %}
-  <title>New Oppotunity GC | a propos de nous</title>
+  <title>New Oppotunity GC | {% trans "A propos de nous" %}</title>
 {% endblock title %}
 
 {% block content %}
@@ -12,7 +13,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                  <h1 class="pagetitle__heading">A propos de nous</h1>
+                  <h1 class="pagetitle__heading">{% trans "A propos de nous" %}</h1>
                 </div><!-- /.col-lg-12 -->
               </div><!-- /.row -->
             </div><!-- /.container -->
@@ -29,16 +30,16 @@
                   <div class="cta__icon">
                     <i class="icon-factory-2"></i>
                   </div>
-                  <h5 class="cta__title">Construisez votre Future, Restaurez votre passer</h5>
+                  <h5 class="cta__title">{% trans "Construire votre Future, Restaurer votre passer" %}</h5>
                 </div>
               </div><!-- /.about__img -->
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="heading heading-2 mt-50 mb-30">
-                <h2 class="heading__title">Les Leaders en Conseil d'affaires et en Création d’entreprise </h2>
+                <h2 class="heading__title">{% trans "Les Leaders en Conseil d'affaires et en Création d’entreprise " %}</h2>
                 <!-- <p class="heading__desc">New Opportunity GC est un cabinet d’affaires internationales basé à Dubai avec filiale en grand Maghreb, né de la volonté des experts de fournir des prestations de conseils de qualité en toute indépendance, spécialisés dans les petites et moyennes entreprises.</p> -->
               </div><!-- /heading -->
-              <p class="heading__desc">Votre entreprise nous est chère, c’est pourquoi nous lui accordons une attention particulière. Notre objectif est d’assurer un service précis et sur mesure qui apportera une plus-value à votre entreprise. </p>
+              <p class="heading__desc">{% trans "Votre entreprise nous est chère, c’est pourquoi nous lui accordons une attention particulière. Notre objectif est d’assurer un service précis et sur mesure qui apportera une plus-value à votre entreprise. " %}</p>
               <!-- <img src="{% static 'images/about/singnture.png' %}" alt="singnture" class="signature"> -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -56,25 +57,25 @@
                 <div class="row col-12 col-lg-8">
                     <div class="col-sm-12 col-md-6 ">
                         <div class="contact-info-box">
-                            <h5 class="heading-sm">Notre mission </h5>
+                            <h5 class="heading-sm">{% trans "Notre mission " %}</h5>
                             <hr>
-                            <p class="lightGrey">Mener les projets de nos clients à bonne fin, animés par des valeurs qui nous ont toujours protégés, ainsi que ceux qui les ont partagées. <br> 
-                                Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que l’analyse stratégique des entreprises. <br>
-                                La planification proactive que nous suggérons permet d’améliorer la performance et la rentabilité de votre entreprise. </p>
+                            <p class="lightGrey">{% trans "Mener les projets de nos clients à bonne fin, animés par des valeurs qui nous ont toujours protégés, ainsi que ceux qui les ont partagées. " %}<br> 
+                              {% trans "Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que l’analyse stratégique des entreprises. " %}<br>
+                                {% trans "La planification proactive que nous suggérons permet d’améliorer la performance et la rentabilité de votre entreprise. " %}</p>
                         </div><!-- /.contact-info-box -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-sm-12 col-md-6 ">
                         <div class="contact-info-box">
-                            <h5 class="heading-sm">Qui sommes nous ?</h5>
+                            <h5 class="heading-sm">{% trans "Qui sommes nous ?" %}</h5>
                             <hr>
-                                <p class="lightGrey">New Opportunity GC est un cabinet d’affaires internationales basé à Dubai avec filiales en grand Maghreb. Né &nbsp;de la volonté des experts de fournir des prestations de conseils de qualité en toute indépendance, spécialisé dans les petites et moyennes entreprises.</p>
+                                <p class="lightGrey">
+                                  {% trans "New Opportunity GC est un cabinet d’affaires internationales basé à Dubai avec filiales en grand Maghreb. Né &nbsp;de la volonté des experts de fournir des prestations de conseils de qualité en toute indépendance, spécialisé dans les petites et moyennes entreprises." %}
+                                </p> 
                         </div><!-- /.contact-info-box -->
                     </div><!-- /.col-lg-4 -->
                 </div>
-               
             </div><!-- /.row -->
         </div><!-- /.container -->
-    
     </section>
 
 

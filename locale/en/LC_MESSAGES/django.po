@@ -1,0 +1,626 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 13:58+0100\n"
+"PO-Revision-Date: 2021-07-29 14:48+0012\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: .\templates\about.html:6 .\templates\about.html:16
+msgid "A propos de nous"
+msgstr "About us"
+
+#: .\templates\about.html:33
+msgid "Construire votre Future, Restaurer votre passer"
+msgstr "Build your Future, Restore your past"
+
+#: .\templates\about.html:39
+msgid "Les Leaders en Conseil d'affaires et en Création d’entreprise "
+msgstr "Leaders in business corporation advice and company creation"
+
+#: .\templates\about.html:42
+msgid ""
+"Votre entreprise nous est chère, c’est pourquoi nous lui accordons une "
+"attention particulière. Notre objectif est d’assurer un service précis et "
+"sur mesure qui apportera une plus-value à votre entreprise. "
+msgstr ""
+"Your company is important for us , that s why we pay a great attention .\n"
+"our  aim is to ensure a precise  and tailored  service which will bring an added value to your company."
+
+#: .\templates\about.html:60
+msgid "Notre mission "
+msgstr "Our mission"
+
+#: .\templates\about.html:62
+msgid ""
+"Mener les projets de nos clients à bonne fin, animés par des valeurs qui "
+"nous ont toujours protégés, ainsi que ceux qui les ont partagées. "
+msgstr ""
+"Lead our client projects to a fine end, animated by values which protected "
+"us all time ,as well as those whom have shared with ."
+
+#: .\templates\about.html:63
+msgid ""
+"Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le"
+" positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que "
+"l’analyse stratégique des entreprises. "
+msgstr ""
+"To bring a real added value for the company and its manager in order to "
+"point him within a business ecosystem ,from the diagnostic as well as the "
+"company strategic  analysis."
+
+#: .\templates\about.html:64
+msgid ""
+"La planification proactive que nous suggérons permet d’améliorer la "
+"performance et la rentabilité de votre entreprise. "
+msgstr ""
+"The proactive planning that we suggest ,will  allow to improve the "
+"performance and the profitability of your company."
+
+#: .\templates\about.html:69
+msgid "Qui sommes nous ?"
+msgstr "Who are we?"
+
+#: .\templates\about.html:71
+msgid ""
+"New Opportunity GC est un cabinet d’affaires internationales basé à Dubai "
+"avec filiales en grand Maghreb. Né &nbsp;de la volonté des experts de "
+"fournir des prestations de conseils de qualité en toute indépendance, "
+"spécialisé dans les petites et moyennes entreprises."
+msgstr ""
+"New opportunity gc is an international business office  based in dubai with "
+"a branch in maghreb  region  ,created from the willing of the experts  to "
+"provide  independent quality corporation advice  ,specilised in small and "
+"medium companies ."
+
+#: .\templates\base.html:58 .\templates\base.html:157
+msgid "Accueil"
+msgstr "Home"
+
+#: .\templates\base.html:61
+msgid "A Propos"
+msgstr "About"
+
+#: .\templates\base.html:64 .\templates\base.html:159
+#: .\templates\base.html:166
+msgid "Services"
+msgstr "Services"
+
+#: .\templates\base.html:66 .\templates\service-creation-entreprise.html:31
+msgid "Création d’entreprise "
+msgstr "Company creation"
+
+#: .\templates\base.html:67
+msgid "Gestion d’entreprise "
+msgstr "Company managment"
+
+#: .\templates\base.html:68 .\templates\service-simulation.html:14
+msgid "Simulation des projets"
+msgstr "Projects simulation"
+
+#: .\templates\base.html:69 .\templates\service-appels-offres.html:15
+msgid "Avis d’appels d’offres et Consultations "
+msgstr "Consultations and call for tenders"
+
+#: .\templates\base.html:73 .\templates\base.html:160
+msgid "Contact"
+msgstr "Contact"
+
+#: .\templates\base.html:119
+msgid " Contact Rapide"
+msgstr "Fast contact"
+
+#: .\templates\base.html:158
+msgid "A propos"
+msgstr "About"
+
+#: .\templates\base.html:170 .\templates\service-creation-entreprise.html:14
+msgid "Création d’entreprise"
+msgstr "Company creation"
+
+#: .\templates\base.html:171
+msgid "gestion d’entreprise "
+msgstr "Company managment"
+
+#: .\templates\base.html:172
+msgid "Simulation des projets "
+msgstr "Projects simulation"
+
+#: .\templates\base.html:173
+msgid "Avis d’appels d’offres et Consultations"
+msgstr "Consultations and call for tenders"
+
+#: .\templates\base.html:179
+msgid "Assistance clients"
+msgstr "Client-customers assistance"
+
+#: .\templates\base.html:182
+msgid ""
+"  \n"
+"                    12 mois est le temps nécessaire pour habituer l’entreprise et le dirigeant à leurs nouvelles vies.\n"
+"                    New Opportunity GC continue à leurs côtés pendant 1 an et sans supplément. <br>\n"
+"                    Le but étant évidemment, de tout mettre en œuvre pour faire de nos clients, des clients satisfaits d’avoir pris cette heureuse décision de collaborer avec nous.\n"
+"                    "
+msgstr ""
+"12 MONTHS ARE THE NECESSARY TIME TO ACCOSTUM THE COMPANY AS WELL AS THE MANAGER TO THE NEW LIFES.\n"
+"NEW OPPORTUNITY GC FOLLOWS BESIDES YOU DURING ONE YEAR WITHOUT ANY EXTRA MATTERS.\n"
+"OBVIOUSLY THE AIM , IS TO IMPLEMENT EVERY THING TO FULLY SATISFY OUR CLIENTS TO HAVE DECIDED HOPEFULY TO COOPERATE WITH US."
+
+#: .\templates\base.html:238
+msgid "Numéro de Téléphone"
+msgstr "Phone number"
+
+#: .\templates\base.html:241
+msgid "Sujet"
+msgstr "Topic"
+
+#: .\templates\base.html:244
+msgid "Date"
+msgstr "Date"
+
+#: .\templates\base.html:247
+msgid "Heure"
+msgstr "Time"
+
+#: .\templates\base.html:253
+msgid "informations complémentaires"
+msgstr "Further information"
+
+#: .\templates\base.html:258 .\templates\contact.html:68
+#: .\templates\service-appels-offres.html:120
+#: .\templates\service-creation-entreprise.html:193
+#: .\templates\service-gestion-entreprise.html:177
+#: .\templates\service-simulation.html:139
+msgid "Envoyer"
+msgstr "Send"
+
+#: .\templates\contact.html:6
+msgid "contactez nous"
+msgstr "Contact us"
+
+#: .\templates\contact.html:19
+msgid "Contactez-Nous"
+msgstr "Contact us"
+
+#: .\templates\contact.html:20
+msgid "Toute notre équipe est a votre service"
+msgstr "Our entire team is at your service"
+
+#: .\templates\contact.html:35
+msgid "N’hésitez pas à nous contacter pour toute information complémentaire."
+msgstr "Do not hesitate to contact us for any further information."
+
+#: .\templates\contact.html:46
+msgid "Entrer en contact"
+msgstr "Get in touch"
+
+#: .\templates\index.html:7
+msgid "Votre Conseiller en affaires"
+msgstr "Your Business Advisor"
+
+#: .\templates\index.html:23
+msgid "Les Leaders en Conseil d'affaires et en Création d’entreprise"
+msgstr "Leaders in business corporation advice and company creation"
+
+#: .\templates\index.html:28 .\templates\service-appels-offres.html:17
+#: .\templates\service-creation-entreprise.html:16
+#: .\templates\service-gestion-entreprise.html:18
+#: .\templates\service-simulation.html:16
+msgid "Rendez-vous"
+msgstr "Appointment"
+
+#: .\templates\index.html:46
+msgid "Ce que nous faisons"
+msgstr "What we do"
+
+#: .\templates\index.html:48
+msgid ""
+"New Opportunity GC est un cabinet d’affaires internationales basé à Dubai "
+"avec filiales au grand Maghreb."
+msgstr ""
+"New opportunity gc is an international business office  based in dubai with "
+"a branch in maghreb  region ."
+
+#: .\templates\index.html:58
+msgid "La Création d’entreprise "
+msgstr "Company creation"
+
+#: .\templates\index.html:60
+msgid ""
+"Votre projet demande de la préparation, des décisions importantes doivent "
+"être prises. Pour mettre en place un projet de création d’entreprise..."
+msgstr ""
+"Your project will need preparation ,important decisions must be taken. In "
+"order to implement  a company creation project..."
+
+#: .\templates\index.html:66
+msgid "La gestion de l’entreprise "
+msgstr "Company managment"
+
+#: .\templates\index.html:68
+msgid ""
+"La gestion d’entreprise correspond à l’implémentation des ressources pour "
+"assurer la mise en marche du projet..."
+msgstr ""
+"THE COMPANY MANAGEMENT MATCHES TO THE IMPLEMENTATION  THE RESSOURCES IN "
+"ORDER TO ENSURE THE START UP OF THE PROJECT..."
+
+#: .\templates\index.html:76 .\templates\service-simulation.html:30
+msgid "La Simulation des projets "
+msgstr "The projects simulation"
+
+#: .\templates\index.html:78
+msgid ""
+"Notre simulation des projets englobe toutes les démarches clés de la gestion"
+" de ces derniers, et met en avant la communication de l’information qui est "
+"un..."
+msgstr ""
+"Our projets simulation gather all the keyb steps of management,and highlight"
+" the information communication which is an..."
+
+#: .\templates\index.html:84
+msgid "Avis d’appel d’offres et Consultations "
+msgstr "Consultations and call for tenders"
+
+#: .\templates\index.html:86
+msgid ""
+"Les appels d’offres et les consultations dans divers secteurs d’activité, "
+"représentent une mine d’opportunité d’affaire..."
+msgstr ""
+"The consultations and the call for tenders in many several activity sectors "
+",represent a great  business  opportunity ,our experts will allow you to "
+"discover all the market needs in order to participate and take theses "
+"opportunities..."
+
+#: .\templates\index.html:107
+msgid ""
+"La planification proactive que nous suggérons permet d’améliorer la "
+"performance et la rentabilité de votre entreprise."
+msgstr ""
+"The proactive planning that we suggest ,will  allow to improve the "
+"performance and the profitability of your company."
+
+#: .\templates\index.html:127
+msgid "Pourquoi New Opportunity GC?"
+msgstr "Why a new opportunity gc?"
+
+#: .\templates\index.html:135
+msgid ""
+"Opportunity est un mot dans notre langage qui, pour nous, ne suggère que « "
+"l’opportunité »."
+msgstr ""
+"Opportunity is a word in our language which, can, for us, suggest only the "
+"«opportunity»"
+
+#: .\templates\index.html:136
+msgid ""
+" Cette restriction dans la compréhension de ce mot magique, ne l’est que par"
+" l’acception positive « de saisir l’opportunité ». C’est une culture que "
+"nous portons fièrement et que nous transmettons à des leaders par des "
+"leaders. "
+msgstr ""
+"This restriction within the magic word comprehension ,exists only by the "
+"positive sens  “to  catch the opportunity”. It is a culture that we bear "
+"proudly and that we transmit to leaders by the leaders."
+
+#: .\templates\index.html:137
+msgid ""
+" Nous possédons les compétences, l’expérience et les outils nécessaires au "
+"pilotage de votre activité commerciale à l’international. "
+msgstr ""
+"We own the competences ,the experience and the necessary tools  for your "
+"commercial  activity steering abroad ."
+
+#: .\templates\index.html:138
+msgid ""
+"Notre société assure une gamme de services d’assistance et conseil en "
+"affaires pour une gestion efficace. "
+msgstr ""
+"Our company ensures a wide range of business advice and assistance services "
+"for an efficient management."
+
+#: .\templates\service-appels-offres.html:6
+msgid "service d'Avis d’appels d’offres et Consultations"
+msgstr "Consultations and call for tenders"
+
+#: .\templates\service-appels-offres.html:31
+msgid "Avis d’appel d’offres et Consultations"
+msgstr "Consultations and call for tenders"
+
+#: .\templates\service-appels-offres.html:34
+msgid ""
+"Les appels d’offres et les consultations dans divers secteurs d’activité, "
+"représentent une mine d’opportunité d’affaire, nos experts vous permet de "
+"découvrir tous les besoins du marché afin de participer et saisir ces "
+"opportunités."
+msgstr ""
+"The consultations and the call for tenders in many several activity sectors "
+",represent a great  business  opportunity ,our experts will allow you to "
+"discover all the market needs in order to participate and take theses "
+"opportunities."
+
+#: .\templates\service-appels-offres.html:46
+msgid "Retrait de cahiers des charges"
+msgstr "The withdraw of the specifications book."
+
+#: .\templates\service-appels-offres.html:54
+msgid " Traduction et légalisation des documents"
+msgstr "The translation and the legalization of the documents."
+
+#: .\templates\service-appels-offres.html:63
+msgid "Soumission et assistance à l’ouverture des plis "
+msgstr "Participation in tenders submission and the openings of the envelops."
+
+#: .\templates\service-appels-offres.html:78
+msgid ""
+"Nos experts vous accompagneront sur toute la ligne, afin d'assurer les "
+"meilleurs résultats et garantir une succession totale à vos projets"
+msgstr ""
+"Our experts will support you in all the steps ,in order to ensure the best "
+"results and the total succession of your projects."
+
+#: .\templates\service-appels-offres.html:89
+#: .\templates\service-creation-entreprise.html:163
+#: .\templates\service-gestion-entreprise.html:146
+#: .\templates\service-simulation.html:109
+msgid "Prenez Rendez-vous"
+msgstr "Make an appointment"
+
+#: .\templates\service-creation-entreprise.html:5
+msgid "service de Création d’entreprise"
+msgstr "Company creation"
+
+#: .\templates\service-creation-entreprise.html:34
+msgid ""
+"Votre projet demande de la préparation. <br> des décisions importantes "
+"doivent être prises. <br> Pour mettre en place un projet de création "
+"d’entreprise, il est nécessaire de procéder par étapes mais il n’est pas "
+"toujours évident de savoir comment s’y prendre et par où commencer."
+msgstr ""
+"Your project will need preparation,  <br> important decisions must be taken. <br> \n"
+"In order to implement  a company creation project , it is necessary to proceed by steps but  it is not often   obvious to know how to deal and or how to start."
+
+#: .\templates\service-creation-entreprise.html:39
+msgid ""
+" New Opportunity GC vous propose un accompagnement total dans les démarches "
+"suivants"
+msgstr ""
+"New opportunity gc suggest you a total support in the following services :"
+
+#: .\templates\service-creation-entreprise.html:47
+msgid "Dénomination"
+msgstr "Denomination "
+
+#: .\templates\service-creation-entreprise.html:55
+msgid "Acte de propriété / bail de location / domiciliation "
+msgstr "Property /  rent act –contract /domiciliation ."
+
+#: .\templates\service-creation-entreprise.html:64
+msgid "Création du statut de l’entreprise "
+msgstr "Company creation"
+
+#: .\templates\service-creation-entreprise.html:74
+msgid "Publication au BOAL (bulletin officiel des annonces légales) "
+msgstr "The creation of boal – official  legal announcements list"
+
+#: .\templates\service-creation-entreprise.html:83
+msgid "Paiement du timbre fiscal"
+msgstr "Tax stmap paying "
+
+#: .\templates\service-creation-entreprise.html:93
+msgid "Paiement des droits d’inscription au registre de commerce"
+msgstr "The payment of the trade register registration rights."
+
+#: .\templates\service-creation-entreprise.html:102
+msgid "Immatriculation au CNRC"
+msgstr "The  registration at the national centre of the trade register."
+
+#: .\templates\service-creation-entreprise.html:111
+msgid "Déclaration d’existence aux impôts"
+msgstr "The existing tax declaration certificate."
+
+#: .\templates\service-creation-entreprise.html:120
+msgid "Extraction du NIS (numéro d'identification statistique)"
+msgstr "The statistic  identification  number-nis-declaration "
+
+#: .\templates\service-creation-entreprise.html:129
+msgid "Déclaration d’activité a la CASNOS"
+msgstr "The insurance fund for non salaried workers –casnos- certificate ."
+
+#: .\templates\service-creation-entreprise.html:138
+msgid "Ouverture du Compte bancaire"
+msgstr "The account bank opening."
+
+#: .\templates\service-creation-entreprise.html:152
+msgid ""
+"Si vous êtes dans l’étape de création d’entreprise, notre équipe vous "
+"accompagne et vous guide sur toutes les procédures à suivre, juridiques ou "
+"financières afin que vous puissiez lancer votre business en toute sécurité "
+"en mettant au point un plan d’action solide, professionnel et efficace."
+msgstr ""
+"If yoy are within the company creation step ,our team shall support  and "
+"guide  you in all the procedures to follow ,from the legal or financial "
+"aspect in order to be able to launch  your business in full security with "
+"the implementation of a strong , professional  ,efficient  action plan "
+
+#: .\templates\service-gestion-entreprise.html:6
+msgid "service de Gestion d'entreprise"
+msgstr "Company managment services"
+
+#: .\templates\service-gestion-entreprise.html:16
+msgid "Gestion d'entreprise "
+msgstr "Company managment"
+
+#: .\templates\service-gestion-entreprise.html:32
+msgid "la gestion de l’entreprise!"
+msgstr "The company managment"
+
+#: .\templates\service-gestion-entreprise.html:35
+msgid ""
+"La gestion d’entreprise correspond à l’implémentation des ressources pour "
+"assurer la mise en marche du projet."
+msgstr ""
+"The company management matches to the implementation  the ressources in "
+"order to ensure the start up of the project."
+
+#: .\templates\service-gestion-entreprise.html:39
+msgid ""
+"Entre la préparation des contrats, le recrutement des employés et tous les "
+"dossiers nécessaires au fonctionnement de votre entreprise, nous sommes là "
+"pour vous assister et conseiller sur toutes vos démarches "
+msgstr ""
+"Between the contracts  and the recruitment of employees and all the "
+"necessary functioning files preparations of your company,we are here to "
+"assit you and provide you advice for all your steps"
+
+#: .\templates\service-gestion-entreprise.html:47
+msgid ""
+"Assistance et conseil pour obtenir les accords de principe, les "
+"autorisations ainsi que les permis de travails "
+msgstr ""
+"Advice and assistance to obtain the agreement in principle , the "
+"authorizations  and the work permits ."
+
+#: .\templates\service-gestion-entreprise.html:55
+msgid "Assistance pour l’obtention des permis de séjours pour les expatriés "
+msgstr ""
+"Advice and assistance for the obtention of the residence permit for the "
+"expatriates."
+
+#: .\templates\service-gestion-entreprise.html:64
+msgid "\tAssistance au recrutement du personnel local"
+msgstr "Assistance for recruitment of the local staff."
+
+#: .\templates\service-gestion-entreprise.html:73
+msgid "Assistance pour la logistique du personnel expatries"
+msgstr ""
+"Advice and assistance for the obtention of the residence permit for the "
+"expatriates"
+
+#: .\templates\service-gestion-entreprise.html:82
+msgid ""
+"Assistance et conseil sur La vérification de la situation financière et "
+"sociale de votre entreprise "
+msgstr ""
+"Advice and assistance to obtain the agreement in principle , the "
+"authorizations  and the work permits ."
+
+#: .\templates\service-gestion-entreprise.html:91
+msgid ""
+"Assistance et conseil pour vérification et recours fiscaux, remboursement de"
+" TVA, recours CNAS et CACOBATPH"
+msgstr ""
+"Assistance and check of the appeal for taxes matters , vat  refunds, "
+"insurance national fund for salaried employees and cacopatph-building and "
+"civil works system"
+
+#: .\templates\service-gestion-entreprise.html:101
+msgid "Assistance pour l’obtention ANDI "
+msgstr ""
+"Assistance for the obtention of andi certificates –national agency of the "
+"investments development ."
+
+#: .\templates\service-gestion-entreprise.html:110
+msgid " Assistance pour la création des dossiers de transfert du fond "
+msgstr "Assistance  for the funds transfer files creation ."
+
+#: .\templates\service-gestion-entreprise.html:119
+msgid "Assistance pour la négociation des contrats et nouveaux marchés"
+msgstr "Assistance for the contracts and new markets negociation "
+
+#: .\templates\service-gestion-entreprise.html:133
+msgid ""
+"Et plein d’autres services qui vous aiderons a mieux gérer votre entreprise."
+msgstr ""
+"Moreover then, services which can help you to the better  management of your"
+" company"
+
+#: .\templates\service-gestion-entreprise.html:134
+msgid ""
+"Nos experts vous garantissent le bon déroulement de vos actions légales et "
+"fiscales internes et externes"
+msgstr ""
+"Our experts ensure the good proceedings of your external and internal legal "
+"and tax actions"
+
+#: .\templates\service-simulation.html:5
+msgid "service de Simulation des projets"
+msgstr "Projects simulation"
+
+#: .\templates\service-simulation.html:33
+msgid ""
+"Notre simulation des projets englobe toutes les démarches clés de la gestion"
+" de ces derniers, <br> et met en avant la communication de l’information qui"
+" est un facteur important à la réussite. <br> La réactivité selon les "
+"besoins du projet et le dynamisme sont au cœur de la simulation. "
+msgstr ""
+"Our projets simulation gather all the keyb steps of management,and highlight"
+" the information communication which is an important factor for success.<br>"
+" the reactivity according to the project needs  as well as the dynamism ,are"
+" at the heart of the simulation ."
+
+#: .\templates\service-simulation.html:37
+msgid ""
+"Nos experts vous accompagneront sur toute la ligne, afin d'assurer les "
+"meilleurs résultats pour votre simulation et garantir une succession totale "
+"à vos projets "
+msgstr ""
+"Our experts will support you in all your steps,i n order to ensure the best "
+"results for your simulation and a total succession to your projects "
+
+#: .\templates\service-simulation.html:45
+msgid ""
+"Planification opérationnelle, stratégique et financière de l’entreprise "
+msgstr "Company  operational  and financial and strategic  planning"
+
+#: .\templates\service-simulation.html:53
+msgid "L’établissement d’une stratégie visant à maximiser les profits"
+msgstr "Develop a strategy ainming to maximise the earnings."
+
+#: .\templates\service-simulation.html:62
+msgid ""
+"La planification fiscale et l’optimisation pour la gestion de fonds propres "
+msgstr "The taxation planning and the optimization of the equity."
+
+#: .\templates\service-simulation.html:71
+msgid " L’élaboration du business plan"
+msgstr "The preparation of business –plan."
+
+#: .\templates\service-simulation.html:80
+msgid "L’estimation des CASH-FLOWS et l’analyse de marché"
+msgstr "The assessment of the cash-flows and the market analysis"
+
+#: .\templates\service-simulation.html:96
+msgid ""
+"La simulation vous permet de vous familiariser avec les outils de la gestion"
+" de projet tel que le budget, le coût, la qualité, les ressources…etc, et "
+"comprendre les interactions entre les différents éléments de vos projets."
+msgstr ""
+"The simulation will allow you to be familiar with the project management "
+"tools such as ,budget,cost,quality,the ressources,etc….And to understand the"
+" interactions between the different elements of your projects."
+
+#: .\templates\service-simulation.html:110
+msgid ""
+"Tous nos services sont adaptés et personnalisés selon les besoins de nos "
+"clients."
+msgstr ""
+"All our services are adapted and personalized according to our clients "
+"needs."
+
+#: .\templates\success.html:17
+msgid "Merci! Votre message a été envoyer avec succées"
+msgstr "Thank you! Your message has been sent successfully"

@@ -1,6 +1,7 @@
 
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
 
 {% block title %}
   <title>New Oppotunity GC | Message envoyé</title>
@@ -8,15 +9,14 @@
 
 
 {% block content %}
-<section id="pageTitle" class="page-title page-title-layout9 bg-overlay bg-parallax text-center">
+  <section id="pageTitle" class="page-title page-title-layout9 bg-overlay bg-parallax text-center">
     <div class="bg-img"><img class="img-fluid" src="{% static 'images/page-titles/bg-space.jpg' %}" alt="background"></div>
     <div class="container">
       <div class="row">
         <div class="">
-          <h1 class="pagetitle__heading">Merci! Votre message a été envoyer avec succées</h1>
+          <h1 class="pagetitle__heading">{% trans "Merci! Votre message a été envoyer avec succées" %}</h1>
         </div><!-- /.col-lg-8 -->
       </div><!-- /.row -->
     </div><!-- /.container -->
   </section><!-- /.page-title -->
-
 {% endblock content %}

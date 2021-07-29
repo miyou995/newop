@@ -5,11 +5,11 @@ from django.conf.urls.static import static
 from newop import settings
 from django.conf.urls.i18n import i18n_patterns
 
-
-urlpatterns = [
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     path('', include("opapp.urls")),
-]
+    path('rosetta/', include('rosetta.urls')),
+)
 
 # urlpatterns += i18n_patterns()
 

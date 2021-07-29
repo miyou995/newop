@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'opapp'
+    'opapp',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -113,6 +114,17 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'fr'
 
+LANGUAGES = (
+    ('fr', 'French'),
+    ('en', 'English'),
+    ('it', 'Italian'),
+    ('ar', 'Arabic'),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
+
 TIME_ZONE = 'Africa/Algiers'
 
 USE_I18N = True
@@ -148,9 +160,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #     ('ar', _('Arabic')),
 # )
 
-LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'local/'),
-)
+
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 else:
