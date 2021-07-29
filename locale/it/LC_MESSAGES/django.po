@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: .\templates\service-appels-offres.html:4
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 13:58+0100\n"
-"PO-Revision-Date: 2021-07-29 14:19+0012\n"
+"POT-Creation-Date: 2021-07-29 18:17+0100\n"
+"PO-Revision-Date: 2021-07-29 18:15+0012\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -51,16 +52,16 @@ msgid ""
 "Mener les projets de nos clients à bonne fin, animés par des valeurs qui "
 "nous ont toujours protégés, ainsi que ceux qui les ont partagées. "
 msgstr ""
-"Portare a buon fine i progetti dei nostri clienti, animati dai valori che ci"
-" hanno sempre protetto e da coloro che li hanno condivisi. Per portare un "
+"Portare a buon fine i progetti dei nostri clienti, animati dai valori che ci "
+"hanno sempre protetto e da coloro che li hanno condivisi. Per portare un "
 "vero Valore aggiunto per l'Impresa e il suo manager al fine di posizionarla "
-"in un ecosistema d’affari, risultante dalla Diagnosi  così come dall'analisi"
-" strategica delle imprese"
+"in un ecosistema d’affari, risultante dalla Diagnosi  così come dall'analisi "
+"strategica delle imprese"
 
 #: .\templates\about.html:63
 msgid ""
-"Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le"
-" positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que "
+"Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le "
+"positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que "
 "l’analyse stratégique des entreprises. "
 msgstr ""
 "Per portare un vero Valore aggiunto per l'Impresa e il suo manager al fine "
@@ -79,7 +80,7 @@ msgstr ""
 msgid "Qui sommes nous ?"
 msgstr "Chi siamo ?"
 
-#: .\templates\about.html:71
+#: .\templates\about.html:72
 msgid ""
 "New Opportunity GC est un cabinet d’affaires internationales basé à Dubai "
 "avec filiales en grand Maghreb. Né &nbsp;de la volonté des experts de "
@@ -91,101 +92,146 @@ msgstr ""
 "servizi di consulenza di qualità in completa indipendenza, specializzati in "
 "piccole e medie imprese."
 
-#: .\templates\base.html:58 .\templates\base.html:157
+#: .\templates\base.html:63 .\templates\base.html:188
 msgid "Accueil"
 msgstr "Accoglienza"
 
-#: .\templates\base.html:61
+#: .\templates\base.html:66
 msgid "A Propos"
 msgstr "Riguardo a"
 
-#: .\templates\base.html:64 .\templates\base.html:159
-#: .\templates\base.html:166
+#: .\templates\base.html:69 .\templates\base.html:190 .\templates\base.html:197
 msgid "Services"
 msgstr "Servizi"
 
-#: .\templates\base.html:66 .\templates\service-creation-entreprise.html:31
+#: .\templates\base.html:71 .\templates\service-creation-entreprise.html:31
 msgid "Création d’entreprise "
 msgstr "Creare un’attività"
 
-#: .\templates\base.html:67
+#: .\templates\base.html:72
 msgid "Gestion d’entreprise "
 msgstr "Gestione aziendale"
 
-#: .\templates\base.html:68 .\templates\service-simulation.html:14
+#: .\templates\base.html:73 .\templates\service-simulation.html:14
 msgid "Simulation des projets"
 msgstr "Simulazione del progetto"
 
-#: .\templates\base.html:69 .\templates\service-appels-offres.html:15
+#: .\templates\base.html:74 .\templates\service-appels-offres.html:14
 msgid "Avis d’appels d’offres et Consultations "
 msgstr "Bandi di gara e consulenze"
 
-#: .\templates\base.html:73 .\templates\base.html:160
+#: .\templates\base.html:78 .\templates\base.html:191
 msgid "Contact"
 msgstr "Contatto"
 
-#: .\templates\base.html:119
+#: .\templates\base.html:95
+msgid "Language"
+msgstr "Lingua"
+
+#: .\templates\base.html:150
 msgid " Contact Rapide"
 msgstr "contatto veloce"
 
-#: .\templates\base.html:158
+#: .\templates\base.html:189
 msgid "A propos"
 msgstr "Riguardo a"
 
-#: .\templates\base.html:170 .\templates\service-creation-entreprise.html:14
+#: .\templates\base.html:201 .\templates\service-creation-entreprise.html:14
 msgid "Création d’entreprise"
 msgstr "Creare un’attività"
 
-#: .\templates\base.html:171
+#: .\templates\base.html:202
 msgid "gestion d’entreprise "
 msgstr "Gestione aziendale"
 
-#: .\templates\base.html:172
+#: .\templates\base.html:203
 msgid "Simulation des projets "
 msgstr "Simulazione del progetto"
 
-#: .\templates\base.html:173
+#: .\templates\base.html:204
 msgid "Avis d’appels d’offres et Consultations"
 msgstr "Bandi di gara e consulenze"
 
-#: .\templates\base.html:179
+#: .\templates\base.html:210
 msgid "Assistance clients"
 msgstr "Assistenza clienti"
 
-#: .\templates\base.html:182
+#: .\templates\base.html:213
 msgid ""
 "  \n"
-"                    12 mois est le temps nécessaire pour habituer l’entreprise et le dirigeant à leurs nouvelles vies.\n"
-"                    New Opportunity GC continue à leurs côtés pendant 1 an et sans supplément. <br>\n"
-"                    Le but étant évidemment, de tout mettre en œuvre pour faire de nos clients, des clients satisfaits d’avoir pris cette heureuse décision de collaborer avec nous.\n"
+"                    12 mois est le temps nécessaire pour habituer "
+"l’entreprise et le dirigeant à leurs nouvelles vies.\n"
+"                    New Opportunity GC continue à leurs côtés pendant 1 an "
+"et sans supplément. <br>\n"
+"                    Le but étant évidemment, de tout mettre en œuvre pour "
+"faire de nos clients, des clients satisfaits d’avoir pris cette heureuse "
+"décision de collaborer avec nous.\n"
 "                    "
 msgstr ""
-"12 mesi sono il tempo necessario per abituare l'azienda e il manager alla loro nuova vita.\n"
-"New Opportunity GC continua a lavorare con loro per 1 anno senza costi aggiuntivi.<br>\n"
-"L'obiettivo è ovviamente quello di fare tutto il possibile per rendere i nostri clienti soddisfatti della loro decisione di lavorare con noi."
+"12 mesi sono il tempo necessario per abituare l'azienda e il manager alla "
+"loro nuova vita.\n"
+"New Opportunity GC continua a lavorare con loro per 1 anno senza costi "
+"aggiuntivi.<br>\n"
+"L'obiettivo è ovviamente quello di fare tutto il possibile per rendere i "
+"nostri clienti soddisfatti della loro decisione di lavorare con noi."
 
-#: .\templates\base.html:238
+#: .\templates\base.html:258 .\templates\service-appels-offres.html:88
+#: .\templates\service-creation-entreprise.html:163
+#: .\templates\service-gestion-entreprise.html:146
+#: .\templates\service-simulation.html:109
+msgid "Prenez Rendez-vous"
+msgstr "Prendi un appuntamento"
+
+#: .\templates\base.html:263 .\templates\service-appels-offres.html:93
+#: .\templates\service-creation-entreprise.html:168
+#: .\templates\service-gestion-entreprise.html:151
+#: .\templates\service-simulation.html:113
+msgid "Nom"
+msgstr "Nome"
+
+#: .\templates\base.html:266 .\templates\service-appels-offres.html:96
+#: .\templates\service-creation-entreprise.html:171
+#: .\templates\service-gestion-entreprise.html:154
+#: .\templates\service-simulation.html:116
+msgid "Email"
+msgstr "E-mail"
+
+#: .\templates\base.html:269 .\templates\service-appels-offres.html:99
+#: .\templates\service-creation-entreprise.html:174
+#: .\templates\service-gestion-entreprise.html:157
+#: .\templates\service-simulation.html:119
 msgid "Numéro de Téléphone"
 msgstr "Numero di telefono"
 
-#: .\templates\base.html:241
+#: .\templates\base.html:272 .\templates\service-appels-offres.html:102
+#: .\templates\service-creation-entreprise.html:177
+#: .\templates\service-gestion-entreprise.html:160
+#: .\templates\service-simulation.html:122
 msgid "Sujet"
 msgstr "Sujet"
 
-#: .\templates\base.html:244
+#: .\templates\base.html:275 .\templates\service-appels-offres.html:105
+#: .\templates\service-creation-entreprise.html:180
+#: .\templates\service-gestion-entreprise.html:163
+#: .\templates\service-simulation.html:125
 msgid "Date"
 msgstr "Data"
 
-#: .\templates\base.html:247
+#: .\templates\base.html:278 .\templates\service-appels-offres.html:108
+#: .\templates\service-creation-entreprise.html:183
+#: .\templates\service-gestion-entreprise.html:166
+#: .\templates\service-simulation.html:128
 msgid "Heure"
 msgstr "Orario"
 
-#: .\templates\base.html:253
+#: .\templates\base.html:284 .\templates\service-creation-entreprise.html:188
+#: .\templates\service-gestion-entreprise.html:172
+#: .\templates\service-simulation.html:134
 msgid "informations complémentaires"
 msgstr "ulteriori informazioni"
 
-#: .\templates\base.html:258 .\templates\contact.html:68
-#: .\templates\service-appels-offres.html:120
+#: .\templates\base.html:289 .\templates\contact.html:68
+#: .\templates\service-appels-offres.html:119
 #: .\templates\service-creation-entreprise.html:193
 #: .\templates\service-gestion-entreprise.html:177
 #: .\templates\service-simulation.html:139
@@ -220,7 +266,7 @@ msgstr "Il tuo consulente aziendale"
 msgid "Les Leaders en Conseil d'affaires et en Création d’entreprise"
 msgstr "Leader nella consulenza aziendale e nell'imprenditoria "
 
-#: .\templates\index.html:28 .\templates\service-appels-offres.html:17
+#: .\templates\index.html:28 .\templates\service-appels-offres.html:16
 #: .\templates\service-creation-entreprise.html:16
 #: .\templates\service-gestion-entreprise.html:18
 #: .\templates\service-simulation.html:16
@@ -269,8 +315,8 @@ msgstr "Simulazione del progetto"
 
 #: .\templates\index.html:78
 msgid ""
-"Notre simulation des projets englobe toutes les démarches clés de la gestion"
-" de ces derniers, et met en avant la communication de l’information qui est "
+"Notre simulation des projets englobe toutes les démarches clés de la gestion "
+"de ces derniers, et met en avant la communication de l’information qui est "
 "un..."
 msgstr ""
 "La nostra simulazione di progetto comprende tutti i passi chiave della "
@@ -306,15 +352,14 @@ msgid ""
 "Opportunity est un mot dans notre langage qui, pour nous, ne suggère que « "
 "l’opportunité »."
 msgstr ""
-"Opportunity è una parola del nostro linguaggio che, per noi, suggerisce solo"
-" «l’opportunità»."
+"Opportunity è una parola del nostro linguaggio che, per noi, suggerisce solo "
+"«l’opportunità»."
 
 #: .\templates\index.html:136
 msgid ""
-" Cette restriction dans la compréhension de ce mot magique, ne l’est que par"
-" l’acception positive « de saisir l’opportunité ». C’est une culture que "
-"nous portons fièrement et que nous transmettons à des leaders par des "
-"leaders. "
+" Cette restriction dans la compréhension de ce mot magique, ne l’est que par "
+"l’acception positive « de saisir l’opportunité ». C’est une culture que nous "
+"portons fièrement et que nous transmettons à des leaders par des leaders. "
 msgstr ""
 "Tale restrizione nella comprensione di questa parola magica, lo è solo dal "
 "significato positivo di \"cogliere l'opportunità\". È una cultura che "
@@ -336,15 +381,15 @@ msgstr ""
 "La nostra azienda fornisce una serie di servizi di assistenza e consulenza "
 "aziendale per una gestione efficiente. "
 
-#: .\templates\service-appels-offres.html:6
+#: .\templates\service-appels-offres.html:5
 msgid "service d'Avis d’appels d’offres et Consultations"
 msgstr "Bandi di gara e consulenze"
 
-#: .\templates\service-appels-offres.html:31
+#: .\templates\service-appels-offres.html:30
 msgid "Avis d’appel d’offres et Consultations"
 msgstr "Bandi di gara e consulenze"
 
-#: .\templates\service-appels-offres.html:34
+#: .\templates\service-appels-offres.html:33
 msgid ""
 "Les appels d’offres et les consultations dans divers secteurs d’activité, "
 "représentent une mine d’opportunité d’affaire, nos experts vous permet de "
@@ -356,19 +401,19 @@ msgstr ""
 "scoprire tutte le esigenze del mercato per partecipare e cogliere queste "
 "opportunità.  "
 
-#: .\templates\service-appels-offres.html:46
+#: .\templates\service-appels-offres.html:45
 msgid "Retrait de cahiers des charges"
 msgstr "Ritiro dei capitolati"
 
-#: .\templates\service-appels-offres.html:54
+#: .\templates\service-appels-offres.html:53
 msgid " Traduction et légalisation des documents"
 msgstr "Traduzione e legalizzazione di documenti"
 
-#: .\templates\service-appels-offres.html:63
+#: .\templates\service-appels-offres.html:62
 msgid "Soumission et assistance à l’ouverture des plis "
 msgstr "Partecipazione e assistenza nell'apertura dei plichi"
 
-#: .\templates\service-appels-offres.html:78
+#: .\templates\service-appels-offres.html:77
 msgid ""
 "Nos experts vous accompagneront sur toute la ligne, afin d'assurer les "
 "meilleurs résultats et garantir une succession totale à vos projets"
@@ -376,12 +421,11 @@ msgstr ""
 "I nostri esperti vi accompagneranno su tutta la linea, per assicurare i "
 "migliori risultati e garantire una successione totale ai vostri progetti"
 
-#: .\templates\service-appels-offres.html:89
-#: .\templates\service-creation-entreprise.html:163
-#: .\templates\service-gestion-entreprise.html:146
-#: .\templates\service-simulation.html:109
-msgid "Prenez Rendez-vous"
-msgstr "Prendi un appuntamento"
+#: .\templates\service-appels-offres.html:114
+#, fuzzy
+#| msgid "informations complémentaires"
+msgid " informations complémentaires "
+msgstr "ulteriori informazioni"
 
 #: .\templates\service-creation-entreprise.html:5
 msgid "service de Création d’entreprise"
@@ -396,7 +440,9 @@ msgid ""
 msgstr ""
 "un’attività: \n"
 "\n"
-"Il vostro progetto richiede una preparazione, bisogna prendere decisioni importanti.  <br> Per impostare un progetto imprenditoriale, è necessario procedere per gradi, ma non è sempre ovvio come procedere e da dove iniziare."
+"Il vostro progetto richiede una preparazione, bisogna prendere decisioni "
+"importanti.  <br> Per impostare un progetto imprenditoriale, è necessario "
+"procedere per gradi, ma non è sempre ovvio come procedere e da dove iniziare."
 
 #: .\templates\service-creation-entreprise.html:39
 msgid ""
@@ -457,10 +503,10 @@ msgid ""
 "financières afin que vous puissiez lancer votre business en toute sécurité "
 "en mettant au point un plan d’action solide, professionnel et efficace."
 msgstr ""
-"Se sei nella fase di creazione di un’impresa, il nostro team vi accompagnerà"
-" e vi guiderà su tutte le procedure da seguire, legali o finanziarie, in "
-"modo che possiate varare il vostro business in totale sicurezza sviluppando "
-"un piano d'azione solido, professionale ed efficace."
+"Se sei nella fase di creazione di un’impresa, il nostro team vi accompagnerà "
+"e vi guiderà su tutte le procedure da seguire, legali o finanziarie, in modo "
+"che possiate varare il vostro business in totale sicurezza sviluppando un "
+"piano d'azione solido, professionale ed efficace."
 
 #: .\templates\service-gestion-entreprise.html:6
 msgid "service de Gestion d'entreprise"
@@ -523,8 +569,8 @@ msgstr ""
 
 #: .\templates\service-gestion-entreprise.html:91
 msgid ""
-"Assistance et conseil pour vérification et recours fiscaux, remboursement de"
-" TVA, recours CNAS et CACOBATPH"
+"Assistance et conseil pour vérification et recours fiscaux, remboursement de "
+"TVA, recours CNAS et CACOBATPH"
 msgstr ""
 "Assistenza e consulenza per verifiche e ricorsi fiscali, rimborsi IVA, "
 "ricorsi previdenziali (CNAS e CACOBATPH…)"
@@ -561,10 +607,10 @@ msgstr "Simulazione del progetto"
 
 #: .\templates\service-simulation.html:33
 msgid ""
-"Notre simulation des projets englobe toutes les démarches clés de la gestion"
-" de ces derniers, <br> et met en avant la communication de l’information qui"
-" est un facteur important à la réussite. <br> La réactivité selon les "
-"besoins du projet et le dynamisme sont au cœur de la simulation. "
+"Notre simulation des projets englobe toutes les démarches clés de la gestion "
+"de ces derniers, <br> et met en avant la communication de l’information qui "
+"est un facteur important à la réussite. <br> La réactivité selon les besoins "
+"du projet et le dynamisme sont au cœur de la simulation. "
 msgstr ""
 "La nostra simulazione di progetto comprende tutti i passi chiave della "
 "gestione del progetto e mette in rilievo la comunicazione dell’informazione "
@@ -593,8 +639,7 @@ msgstr "Stabilire una strategia per massimizzare i profitti, "
 #: .\templates\service-simulation.html:62
 msgid ""
 "La planification fiscale et l’optimisation pour la gestion de fonds propres "
-msgstr ""
-"Pianificazione e ottimizzazione fiscale per la gestione del capitale. "
+msgstr "Pianificazione e ottimizzazione fiscale per la gestione del capitale. "
 
 #: .\templates\service-simulation.html:71
 msgid " L’élaboration du business plan"
@@ -606,13 +651,13 @@ msgstr "Stima dei flussi di cassa e analisi di mercato."
 
 #: .\templates\service-simulation.html:96
 msgid ""
-"La simulation vous permet de vous familiariser avec les outils de la gestion"
-" de projet tel que le budget, le coût, la qualité, les ressources…etc, et "
+"La simulation vous permet de vous familiariser avec les outils de la gestion "
+"de projet tel que le budget, le coût, la qualité, les ressources…etc, et "
 "comprendre les interactions entre les différents éléments de vos projets."
 msgstr ""
-"La simulazione permette di familiarizzarsi con gli strumenti di gestione dei"
-" progetti come il budget, i costi, la qualità, le risorse...ecc, e di capire"
-" le interazioni tra i diversi elementi dei vostri progetti."
+"La simulazione permette di familiarizzarsi con gli strumenti di gestione dei "
+"progetti come il budget, i costi, la qualità, le risorse...ecc, e di capire "
+"le interazioni tra i diversi elementi dei vostri progetti."
 
 #: .\templates\service-simulation.html:110
 msgid ""

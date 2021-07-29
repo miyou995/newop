@@ -105,7 +105,7 @@
                   </div>
                 </div>  -->
               <li class="nav__item with-dropdown">
-                <a href="index.html" class="dropdown-toggle nav__item-link" data-toggle="dropdown"><img 
+                <a href="index.html" class="dropdown-toggle nav__item-link" data-toggle="dropdown"><img class="ml-1"
                   {% if LANGUAGE_CODE == 'ar' %}
                   src="{% static 'images/icons/ar.png' %}" alt="Arabic"
                     {% elif LANGUAGE_CODE == 'it' %}
@@ -255,15 +255,15 @@
           {% csrf_token %}
           <div class="row">
             <div class="col-sm-12 contact__form-panel-header">
-              <h4>Prenez Rendez-vous</h4>
+              <h4>{% trans "Prenez Rendez-vous" %}</h4>
               <!-- <p>Complete control over products allows us to ensure our customers receive the best quality
                 prices and service.</p> -->
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="text" name="name" class="form-control" placeholder="Nom"></div>
+              <div class="form-group"><input type="text" name="name" class="form-control" placeholder="{% trans "Nom" %}"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="form-group"><input type="email" name="email" class="form-control" placeholder="Email"></div>
+              <div class="form-group"><input type="email" name="email" class="form-control" placeholder="{% trans "Email" %}"></div>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="form-group"><input type="text" name="phone" class="form-control" placeholder="{% trans "Numéro de Téléphone" %}"></div>

@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% load i18n %}
-
-{% block title %}
+{% trans "" %}{% block title %}
   <title>New Oppotunity GC | {% trans "service d'Avis d’appels d’offres et Consultations" %}</title>
 {% endblock title %}
 
@@ -91,28 +90,28 @@
                     prices and service.</p> -->
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="text" name='name'class="form-control" placeholder="Nom"></div>
+                  <div class="form-group"><input type="text" name='name'class="form-control" placeholder="{% trans "Nom" %}"></div>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="email" name='email'class="form-control" placeholder="Email"></div>
+                  <div class="form-group"><input type="email" name='email'class="form-control" placeholder="{% trans "Email" %}"></div>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="text"name='phone' class="form-control" placeholder="Numéro de Téléphone"></div>
+                  <div class="form-group"><input type="text"name='phone' class="form-control" placeholder="{% trans "Numéro de Téléphone" %}"></div>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="text" name='subject'class="form-control" placeholder="Sujet"></div>
+                  <div class="form-group"><input type="text" name='subject'class="form-control" placeholder="{% trans "Sujet" %}"></div>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="date"name='day' class="form-control" placeholder="Date"></div>
+                  <div class="form-group"><input type="date"name='day' class="form-control" placeholder="{% trans "Date" %}"></div>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group"><input type="time"name='hour' class="form-control" placeholder="Heure"></div>
+                  <div class="form-group"><input type="time"name='hour' class="form-control" placeholder="{% trans "Heure" %}"></div>
                 </div><!-- /.col-lg-6 -->
               
                
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="form-group">
-                    <textarea class="form-control"name="message" placeholder=" informations complémentaires "></textarea>
+                    <textarea class="form-control"name="message" placeholder="{% trans " informations complémentaires " %}"></textarea>
                   </div>
                 </div><!-- /.col-lg-12 -->
                 <div class="col-sm-12 col-md-12 col-lg-12">
