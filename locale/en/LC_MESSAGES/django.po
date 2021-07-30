@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\templates\service-appels-offres.html:4
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 18:17+0100\n"
-"PO-Revision-Date: 2021-07-29 18:14+0012\n"
+"PO-Revision-Date: 2021-07-30 09:12+0012\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -39,8 +38,7 @@ msgid ""
 "sur mesure qui apportera une plus-value à votre entreprise. "
 msgstr ""
 "Your company is important for us , that s why we pay a great attention .\n"
-"our  aim is to ensure a precise  and tailored  service which will bring an "
-"added value to your company."
+"our  aim is to ensure a precise  and tailored  service which will bring an added value to your company."
 
 #: .\templates\about.html:60
 msgid "Notre mission "
@@ -56,8 +54,8 @@ msgstr ""
 
 #: .\templates\about.html:63
 msgid ""
-"Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le "
-"positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que "
+"Apporter une réelle Plus-value pour l’entreprise et son dirigeant afin de le"
+" positionner dans un écosystème d’affaires, issu du Diagnostic ainsi que "
 "l’analyse stratégique des entreprises. "
 msgstr ""
 "To bring a real added value for the company and its manager in order to "
@@ -96,7 +94,8 @@ msgstr "Home"
 msgid "A Propos"
 msgstr "About"
 
-#: .\templates\base.html:69 .\templates\base.html:190 .\templates\base.html:197
+#: .\templates\base.html:69 .\templates\base.html:190
+#: .\templates\base.html:197
 msgid "Services"
 msgstr "Services"
 
@@ -155,21 +154,14 @@ msgstr "Client-customers assistance"
 #: .\templates\base.html:213
 msgid ""
 "  \n"
-"                    12 mois est le temps nécessaire pour habituer "
-"l’entreprise et le dirigeant à leurs nouvelles vies.\n"
-"                    New Opportunity GC continue à leurs côtés pendant 1 an "
-"et sans supplément. <br>\n"
-"                    Le but étant évidemment, de tout mettre en œuvre pour "
-"faire de nos clients, des clients satisfaits d’avoir pris cette heureuse "
-"décision de collaborer avec nous.\n"
+"                    12 mois est le temps nécessaire pour habituer l’entreprise et le dirigeant à leurs nouvelles vies.\n"
+"                    New Opportunity GC continue à leurs côtés pendant 1 an et sans supplément. <br>\n"
+"                    Le but étant évidemment, de tout mettre en œuvre pour faire de nos clients, des clients satisfaits d’avoir pris cette heureuse décision de collaborer avec nous.\n"
 "                    "
 msgstr ""
-"12 MONTHS ARE THE NECESSARY TIME TO ACCOSTUM THE COMPANY AS WELL AS THE "
-"MANAGER TO THE NEW LIFES.\n"
-"NEW OPPORTUNITY GC FOLLOWS BESIDES YOU DURING ONE YEAR WITHOUT ANY EXTRA "
-"MATTERS.\n"
-"OBVIOUSLY THE AIM , IS TO IMPLEMENT EVERY THING TO FULLY SATISFY OUR CLIENTS "
-"TO HAVE DECIDED HOPEFULY TO COOPERATE WITH US."
+"12 MONTHS ARE THE NECESSARY TIME TO ACCOSTUM THE COMPANY AS WELL AS THE MANAGER TO THE NEW LIFES.\n"
+"NEW OPPORTUNITY GC FOLLOWS BESIDES YOU DURING ONE YEAR WITHOUT ANY EXTRA MATTERS.\n"
+"OBVIOUSLY THE AIM , IS TO IMPLEMENT EVERY THING TO FULLY SATISFY OUR CLIENTS TO HAVE DECIDED HOPEFULY TO COOPERATE WITH US."
 
 #: .\templates\base.html:258 .\templates\service-appels-offres.html:88
 #: .\templates\service-creation-entreprise.html:163
@@ -311,12 +303,12 @@ msgstr "The projects simulation"
 
 #: .\templates\index.html:78
 msgid ""
-"Notre simulation des projets englobe toutes les démarches clés de la gestion "
-"de ces derniers, et met en avant la communication de l’information qui est "
+"Notre simulation des projets englobe toutes les démarches clés de la gestion"
+" de ces derniers, et met en avant la communication de l’information qui est "
 "un..."
 msgstr ""
-"Our projets simulation gather all the keyb steps of management,and highlight "
-"the information communication which is an..."
+"Our projets simulation gather all the keyb steps of management,and highlight"
+" the information communication which is an..."
 
 #: .\templates\index.html:84
 msgid "Avis d’appel d’offres et Consultations "
@@ -327,8 +319,8 @@ msgid ""
 "Les appels d’offres et les consultations dans divers secteurs d’activité, "
 "représentent une mine d’opportunité d’affaire..."
 msgstr ""
-"The consultations and the call for tenders in many several activity sectors ,"
-"represent a great  business  opportunity ,our experts will allow you to "
+"The consultations and the call for tenders in many several activity sectors "
+",represent a great  business  opportunity ,our experts will allow you to "
 "discover all the market needs in order to participate and take theses "
 "opportunities..."
 
@@ -354,9 +346,10 @@ msgstr ""
 
 #: .\templates\index.html:136
 msgid ""
-" Cette restriction dans la compréhension de ce mot magique, ne l’est que par "
-"l’acception positive « de saisir l’opportunité ». C’est une culture que nous "
-"portons fièrement et que nous transmettons à des leaders par des leaders. "
+" Cette restriction dans la compréhension de ce mot magique, ne l’est que par"
+" l’acception positive « de saisir l’opportunité ». C’est une culture que "
+"nous portons fièrement et que nous transmettons à des leaders par des "
+"leaders. "
 msgstr ""
 "This restriction within the magic word comprehension ,exists only by the "
 "positive sens  “to  catch the opportunity”. It is a culture that we bear "
@@ -393,8 +386,8 @@ msgid ""
 "découvrir tous les besoins du marché afin de participer et saisir ces "
 "opportunités."
 msgstr ""
-"The consultations and the call for tenders in many several activity sectors ,"
-"represent a great  business  opportunity ,our experts will allow you to "
+"The consultations and the call for tenders in many several activity sectors "
+",represent a great  business  opportunity ,our experts will allow you to "
 "discover all the market needs in order to participate and take theses "
 "opportunities."
 
@@ -435,11 +428,8 @@ msgid ""
 "d’entreprise, il est nécessaire de procéder par étapes mais il n’est pas "
 "toujours évident de savoir comment s’y prendre et par où commencer."
 msgstr ""
-"Your project will need preparation,  <br> important decisions must be taken. "
-"<br> \n"
-"In order to implement  a company creation project , it is necessary to "
-"proceed by steps but  it is not often   obvious to know how to deal and or "
-"how to start."
+"Your project will need preparation,  <br> important decisions must be taken. <br> \n"
+"In order to implement  a company creation project , it is necessary to proceed by steps but  it is not often   obvious to know how to deal and or how to start."
 
 #: .\templates\service-creation-entreprise.html:39
 msgid ""
@@ -568,8 +558,8 @@ msgstr ""
 
 #: .\templates\service-gestion-entreprise.html:91
 msgid ""
-"Assistance et conseil pour vérification et recours fiscaux, remboursement de "
-"TVA, recours CNAS et CACOBATPH"
+"Assistance et conseil pour vérification et recours fiscaux, remboursement de"
+" TVA, recours CNAS et CACOBATPH"
 msgstr ""
 "Assistance and check of the appeal for taxes matters , vat  refunds, "
 "insurance national fund for salaried employees and cacopatph-building and "
@@ -593,8 +583,8 @@ msgstr "Assistance for the contracts and new markets negociation "
 msgid ""
 "Et plein d’autres services qui vous aiderons a mieux gérer votre entreprise."
 msgstr ""
-"Moreover then, services which can help you to the better  management of your "
-"company"
+"Moreover then, services which can help you to the better  management of your"
+" company"
 
 #: .\templates\service-gestion-entreprise.html:134
 msgid ""
@@ -610,15 +600,15 @@ msgstr "Projects simulation"
 
 #: .\templates\service-simulation.html:33
 msgid ""
-"Notre simulation des projets englobe toutes les démarches clés de la gestion "
-"de ces derniers, <br> et met en avant la communication de l’information qui "
-"est un facteur important à la réussite. <br> La réactivité selon les besoins "
-"du projet et le dynamisme sont au cœur de la simulation. "
+"Notre simulation des projets englobe toutes les démarches clés de la gestion"
+" de ces derniers, <br> et met en avant la communication de l’information qui"
+" est un facteur important à la réussite. <br> La réactivité selon les "
+"besoins du projet et le dynamisme sont au cœur de la simulation. "
 msgstr ""
-"Our projets simulation gather all the keyb steps of management,and highlight "
-"the information communication which is an important factor for success.<br> "
-"the reactivity according to the project needs  as well as the dynamism ,are "
-"at the heart of the simulation ."
+"Our projets simulation gather all the keyb steps of management,and highlight"
+" the information communication which is an important factor for success.<br>"
+" the reactivity according to the project needs  as well as the dynamism ,are"
+" at the heart of the simulation ."
 
 #: .\templates\service-simulation.html:37
 msgid ""
@@ -653,20 +643,21 @@ msgstr "The assessment of the cash-flows and the market analysis"
 
 #: .\templates\service-simulation.html:96
 msgid ""
-"La simulation vous permet de vous familiariser avec les outils de la gestion "
-"de projet tel que le budget, le coût, la qualité, les ressources…etc, et "
+"La simulation vous permet de vous familiariser avec les outils de la gestion"
+" de projet tel que le budget, le coût, la qualité, les ressources…etc, et "
 "comprendre les interactions entre les différents éléments de vos projets."
 msgstr ""
 "The simulation will allow you to be familiar with the project management "
-"tools such as ,budget,cost,quality,the ressources,etc….And to understand the "
-"interactions between the different elements of your projects."
+"tools such as: budget,cost,quality,the ressources,etc….And to understand the"
+" interactions between the different elements of your projects."
 
 #: .\templates\service-simulation.html:110
 msgid ""
 "Tous nos services sont adaptés et personnalisés selon les besoins de nos "
 "clients."
 msgstr ""
-"All our services are adapted and personalized according to our clients needs."
+"All our services are adapted and personalized according to our clients "
+"needs."
 
 #: .\templates\success.html:17
 msgid "Merci! Votre message a été envoyer avec succées"

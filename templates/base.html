@@ -53,7 +53,9 @@
             <img src="{% static 'images/logo/logo_light.png' %}" class="logo-light" alt="logo">
             <img src="{% static 'images/logo/header-logo.png' %}" class="logo-dark" alt="logo">
           </a>
-          <button class="navbar-toggler" type="button">
+          <button class="navbar-toggler" type="button" {% if  LANGUAGE_CODE == 'ar' %}
+            style="position:relative; left:-40px"
+          {% endif %} >
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
@@ -65,7 +67,7 @@
               <li class="nav__item">
                 <a href="{% url 'aboutView' %}" class="nav__item-link"><span>{% trans "A Propos" %}</span></a>
               </li>
-                <li class="nav__item with-dropdown">
+                <li class="nav__item with-dropdown mx-4">
                   <a class="dropdown-toggle nav__item-link " data-toggle="dropdown"><span>{% trans "Services" %}</span></a>
                   <ul class="dropdown-menu" style="width: 235px;padding-right: 30px;">
                     <li class="nav__item"><a href="{% url 'service_creation' %}" class="nav__item-link">{% trans "Création d’entreprise " %}</a></li>
@@ -104,7 +106,7 @@
                     </ul>
                   </div>
                 </div>  -->
-              <li class="nav__item with-dropdown">
+              <li class="nav__item with-dropdown" style="right: 15px;">
                 <a href="index.html" class="dropdown-toggle nav__item-link" data-toggle="dropdown"><img class="ml-1"
                   {% if LANGUAGE_CODE == 'ar' %}
                   src="{% static 'images/icons/ar.png' %}" alt="Arabic"
@@ -116,12 +118,12 @@
                     src="{% static 'images/icons/en.png' %}" alt="English"
                   {% endif %}
                   ></a>
-                <ul class="dropdown-menu" style="width: 100px ;">
+                <ul class="dropdown-menu" style="width: 100px ;left: -80px;">
                   
-                  <li style="padding: 0 px;margin-right: 25%;" class="nav__item"><a href="/it" ><img src="{% static 'images/icons/italy.png' %}" alt="Italian" srcset=""></a></li>
-                  <li style="padding: 0 px;margin-right: 25%;" class="nav__item"><a href="/fr" ><img src="{% static 'images/icons/fr.png' %}" alt="French" srcset=""></a></li>
-                  <li style="padding: 0 px;margin-right: 25%;" class="nav__item"><a href="/en" ><img src="{% static 'images/icons/en.png' %}" alt="English" srcset=""></a></li>
-                  <li style="padding: 0 px;margin-right: 25%;" class="nav__item"><a href="/ar" ><img src="{% static 'images/icons/ar.png' %}" alt="Arabic" srcset=""></a></li>
+                  <li style="padding-left: 40%" class="text-center nav__item"><a style="left: 18px;" href="/it" ><img src="{% static 'images/icons/italy.png' %}" alt="Italian" srcset=""></a></li>
+                  <li style="padding-left: 40%" class="text-center nav__item"><a style="left: 18px;" href="/fr" ><img src="{% static 'images/icons/fr.png' %}" alt="French" srcset=""></a></li>
+                  <li style="padding-left: 40%" class="text-center nav__item"><a style="left: 18px;" href="/en" ><img src="{% static 'images/icons/en.png' %}" alt="English" srcset=""></a></li>
+                  <li style="padding-left: 40%" class="text-center nav__item"><a style="left: 18px;" href="/ar" ><img src="{% static 'images/icons/ar.png' %}" alt="Arabic" srcset=""></a></li>
 
                 </ul> 
               </li>

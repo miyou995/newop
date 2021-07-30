@@ -2570,6 +2570,7 @@ textarea.form-control {
   border-radius: 0;
   width: 23px;
   position: relative;
+ 
 }
 
 .navbar .navbar-toggler .menu-lines {
@@ -3223,10 +3224,12 @@ textarea.form-control {
 @media only screen and (max-width: 991px) {
   .navbar .navbar-toggler {
     position: absolute;
-    right: 15px;
+    right: 60px;
     height: 13px;
   }
-
+#kelma-kbira{
+  font-size:3rem;
+}
   .navbar .collapse:not(.show) {
     display: block;
   }
